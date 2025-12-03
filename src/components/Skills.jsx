@@ -3,7 +3,6 @@ import { Bars } from 'react-loader-spinner';
 import { motion } from "framer-motion";
 import Nav from "./Nav";
 import Footer from './Footer';
-// import img1 from '../images/cpp.svg';
 import img2 from '../images/js.svg';
 import img3 from '../images/nodejs.svg';
 import img4 from '../images/c.png';
