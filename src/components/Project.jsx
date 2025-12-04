@@ -3,7 +3,7 @@ import { Bars } from 'react-loader-spinner';
 import { motion } from 'framer-motion';
 import Nav from './Nav';
 import { FaGithub } from "react-icons/fa";
-import link1 from '../images/movie.jpg';
+import link1 from '../images/zeroo.png';
 import link2 from '../images/fash.png';
 import link3 from '../images/pers.jpg';
 import Footer from './Footer';
@@ -80,11 +80,13 @@ const Project = () => {
             <div className="img_cont">
               <img src={link1} alt="moviebuddy" />
             </div>
-            <h1>Moviebuddy</h1>
-            <h1>(Online Movie Ticket Booking System)</h1>
-            <p>Created a web application for an online movie ticket booking system using the MERN stack. The application contains three pages: login/register, home page, and ticket booking. The home page features sections for popular movies, services, and contact us. The backend is built with Node.js and Express.js.</p>
-            <a href="https://github.com/BharatRathore/MovieBuddy" className='git' target="_blank" rel="noreferrer">
-              <button className='gb'>Github Link <FaGithub /></button>
+            <h1>Catuitionbureau</h1>
+            <h1>(CA Tuition Bureau Online Platform)</h1>
+            <p>CaTuitionBureau is a web application built using the React. It offers users a platform on student
+                and teacher intraction, and explore information. The app future a user-friendly interface for browsing tuition,
+                making bookings, and managing user profiles.</p>
+            <a href="https://www.catuitionbureau.in/" className='git' target="_blank" rel="noreferrer">
+              <button className='gb'>Visit Website <FaGithub /></button>
             </a>
           </motion.div>
 
@@ -92,7 +94,7 @@ const Project = () => {
             <div className="img_cont">
               <img src={link2} alt="fashionhub" />
             </div>
-            <h1>Fashionhub </h1>
+            <h1>Web Hub </h1>
             <h1>(An E-Commerce App)</h1>
             <p>Created an e-commerce app using the MERN stack. I used EJS for building the structure of the application and normal CSS for styling. For database management, I used MongoDB. It contains login/register and home pages where users can select products to buy.</p>
             <a href="https://github.com/BharatRathore/FashionHub" className='git' target="_blank" rel="noreferrer">
@@ -106,7 +108,7 @@ const Project = () => {
             </div>
             <h1>Personal Portfolio</h1>
             <p>Created a personal portfolio website using HTML, CSS, JavaScript, and React.js, hosted on Vercel. The home page includes my intro and resume. There are also project, skills, and contact pages. On the project page, I have listed my projects in the form of cards with GitHub source code links.</p>
-            <a href="https://github.com/BharatRathore/Portfolio" className='git' target="_blank" rel="noreferrer">
+            <a href="https://github.com/bharat9950" className='git' target="_blank" rel="noreferrer">
               <button className='gb'>Github Link <FaGithub /></button>
             </a>
           </motion.div>

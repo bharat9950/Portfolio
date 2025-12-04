@@ -5,7 +5,7 @@ import { IoMdDownload } from "react-icons/io";
 import { motion } from "framer-motion";
 import Nav from './Nav';
 import img1 from '../images/bgs.png'
-import pdflink from '../images/Resume_Bharat.pdf'
+import pdflink from '../images/Bharat_Resumes.pdf'
 import Footer from './Footer';
 
 const Home = () => {
@@ -68,7 +68,7 @@ const Home = () => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                     >
-                        <a href={pdflink} className='dr' rel='noreferrer' target='_blank' download="Bharat_Rathore Resume" onClick={handledelay}>
+                        <a href={pdflink} className='dr' rel='noreferrer' target='_blank' download="Bharat_Resumes.pdf" onClick={handledelay}>
                             <button className='dra'><IoMdDownload /> Download Resume</button>
                         </a>
                     </motion.div>

@@ -52,9 +52,9 @@ const Contact = () => {
             </p>
             <div className='social_logo'>
               <a href="https://www.linkedin.com/in/bharat-choudhary-933630247/" target="_blank" rel="noreferrer" title="LinkedIn"><FaLinkedin /></a>
-              <a href="https://github.com/BharatRathore" target="_blank" rel="noreferrer" title="GitHub"><FaGithub /></a>
+              <a href="https://github.com/bharat9950" target="_blank" rel="noreferrer" title="GitHub"><FaGithub /></a>
               <a href="https://www.instagram.com/bharat_choudhary_14?igsh=MWh0cTJyeGNyYnN4aQ==" target="_blank" rel="noreferrer" title="Instagram"><FaInstagramSquare /></a>
-              <a href="mailto:bharatrathore1407@gmail.com" title="Email"><SiGmail /></a>
+              <a href="mailto:omprathore55555@gmail.com" title="Email"><SiGmail /></a>
             </div>
           </motion.div>
 
