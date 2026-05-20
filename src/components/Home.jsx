@@ -5,7 +5,7 @@ import { IoMdDownload } from "react-icons/io";
 import { motion } from "framer-motion";
 import Nav from './Nav';
 import img1 from '../images/bgs.png'
-import pdflink from '../images/Bharat_Resumes.pdf'
+import pdflink from '../images/Bharat_Resume.pdf'
 import Footer from './Footer';
 
 const Home = () => {
@@ -68,7 +68,7 @@ const Home = () => {
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                     >
-                        <a href={pdflink} className='dr' rel='noreferrer' target='_blank' download="Bharat_Resumes.pdf" onClick={handledelay}>
+                        <a href={pdflink} className='dr' rel='noreferrer' target='_blank' download="Bharat_Resume.pdf" onClick={handledelay}>
                             <button className='dra'><IoMdDownload /> Download Resume</button>
                         </a>
                     </motion.div>
@@ -95,7 +95,7 @@ const Home = () => {
                     <h1>About Me</h1>
                     <p>
                         Hi, my name is <b>Bharat Rathore</b> and I am from Jodhpur, Rajasthan.
-                        I am currently pursuing my MCA at VGU Jaipur in the department of <b> Computer Science and Application having cgpa of 9.15</b>. <br /><br />
+                        I am currently pursuing my MCA at VGU Jaipur in the department of <b> Computer Science and Application having cgpa of 9.1</b>. <br /><br />
                         My technical skills include programming in C, data structures, and algorithms. I am also familiar with web development using the MERN stack.
                         Using my web development skills, I have worked on projects like West Management System web application.
                         but my strength lies in core subjects like oops, os, dbms software, and computer networks. <br /><br />

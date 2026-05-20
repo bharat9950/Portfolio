@@ -86,7 +86,7 @@ const Project = () => {
                 and teacher intraction, and explore information. The app future a user-friendly interface for browsing tuition,
                 making bookings, and managing user profiles.</p>
             <a href="https://www.catuitionbureau.in/" className='git' target="_blank" rel="noreferrer">
-              <button className='gb'>Visit Website <FaGithub /></button>
+              <button className='gb'>Visit Website</button>
             </a>
           </motion.div>
 
@@ -94,11 +94,10 @@ const Project = () => {
             <div className="img_cont">
               <img src={link2} alt="fashionhub" />
             </div>
-            <h1>Web Hub </h1>
-            <h1>(An E-Commerce App)</h1>
-            <p>Created an e-commerce app using the MERN stack. I used EJS for building the structure of the application and normal CSS for styling. For database management, I used MongoDB. It contains login/register and home pages where users can select products to buy.</p>
-            <a href="https://github.com/BharatRathore/FashionHub" className='git' target="_blank" rel="noreferrer">
-              <button className='gb'>Github Link <FaGithub /></button>
+            <h1>MPC Certificate Automation</h1>
+            <p>A MPC certificate automation system is a web application that automates the process of generating MPC certificates. It is a web application that automates the process of generating MPC certificates. It is a web application that automates the process of generating MPC certificates.</p>
+            <a href="https://mpc-certificate-automation.vercel.app/" className='git' target="_blank" rel="noreferrer">
+              <button className='gb'>Visit Website</button>
             </a>
           </motion.div>
 
