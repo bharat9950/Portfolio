@@ -182,6 +182,20 @@ body {
   height: 50px; /* Prevent layout shift */
 }
 
+.download-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: flex-start;
+}
+
+@media (max-width: 900px) {
+  .download-buttons {
+    justify-content: center;
+  }
+}
+
 .dr {
   text-decoration: none;
 }

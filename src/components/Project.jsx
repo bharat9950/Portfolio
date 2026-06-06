@@ -6,6 +6,7 @@ import { FaGithub } from "react-icons/fa";
 import link1 from '../images/zeroo.png';
 import link2 from '../images/fash.png';
 import link3 from '../images/pers.jpg';
+import link4 from '../images/Lms.png';
 import Footer from './Footer';
 
 const Project = () => {
@@ -76,6 +77,17 @@ const Project = () => {
           initial="hidden"
           animate="visible"
         >
+          <motion.div className="project_card" variants={cardVariants}>
+            <div className="img_cont">
+              <img src={link4} alt="educore-lms" />
+            </div>
+            <h1>EduCore LMS</h1>
+            <p>EduCore LMS is a comprehensive Learning Management System built to facilitate digital education, featuring course management, progress tracking, and interactive learning tools for students and instructors.</p>
+            <a href="https://educore-lms-one.vercel.app/" className='git' target="_blank" rel="noreferrer">
+              <button className='gb'>Visit Website</button>
+            </a>
+          </motion.div>
+
           <motion.div className="project_card" variants={cardVariants}>
             <div className="img_cont">
               <img src={link1} alt="moviebuddy" />

@@ -5,20 +5,15 @@ import { IoMdDownload } from "react-icons/io";
 import { motion } from "framer-motion";
 import Nav from './Nav';
 import img1 from '../images/bgs.png'
-import pdflink from '../images/Bharat_Resume.pdf'
+import resume13 from '../images/Bharat_Resume_13.pdf'
+import resume12 from '../images/Bharat_Resume__12.pdf'
 import Footer from './Footer';
 
 const Home = () => {
     const [loading, setLoading] = useState(true);
 
     function handledelay(event) {
-        // Optional: You might not need this delay logic anymore if the UI is fast, 
-        // but keeping it as per original functionality request if needed.
-        // For a smoother UX, direct download is usually better, but I'll keep the logic.
-        const button = document.querySelector('.dra');
-        // We can't easily access the button via querySelector safely in React if there are multiple, 
-        // but for this specific case it's fine or we can use a ref. 
-        // I'll keep the original logic for now.
+        const button = event.currentTarget.querySelector('.dra') || event.currentTarget;
         if (button) {
             button.disabled = true;
             setTimeout(() => {
@@ -64,14 +59,24 @@ const Home = () => {
                     <h1>Hi There!</h1>
                     <h1>I'M <b>Bharat Rathore</b></h1>
                     <Extratext />
-                    <motion.div
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                    >
-                        <a href={pdflink} className='dr' rel='noreferrer' target='_blank' download="Bharat_Resume.pdf" onClick={handledelay}>
-                            <button className='dra'><IoMdDownload /> Download Resume</button>
-                        </a>
-                    </motion.div>
+                    <div className="download-buttons">
+                        <motion.div
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                        >
+                            <a href={resume13} className='dr' rel='noreferrer' target='_blank' download="Bharat_Resume_13.pdf" onClick={handledelay}>
+                                <button className='dra'><IoMdDownload /> Download Resume 13</button>
+                            </a>
+                        </motion.div>
+                        <motion.div
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                        >
+                            <a href={resume12} className='dr' rel='noreferrer' target='_blank' download="Bharat_Resume__12.pdf" onClick={handledelay}>
+                                <button className='dra'><IoMdDownload /> Download Resume 12</button>
+                            </a>
+                        </motion.div>
+                    </div>
                 </motion.div>
 
                 <motion.div
